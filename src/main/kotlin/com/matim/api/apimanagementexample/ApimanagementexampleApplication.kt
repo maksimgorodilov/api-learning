@@ -11,8 +11,8 @@ class ApimanagementexampleApplication: SpringBootServletInitializer() {
 	override fun configure(application: SpringApplicationBuilder): SpringApplicationBuilder? {
 		return application.sources(ApimanagementexampleApplication::class.java)
 	}
-}
 
-fun main(args: Array<String>) {
-	runApplication<ApimanagementexampleApplication>(*args)
+	fun main(args: Array<String>) {
+		runApplication<ApimanagementexampleApplication>(*args)
+	}
 }

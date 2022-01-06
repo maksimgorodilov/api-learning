@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class MyController {
 
+    @GetMapping("/")
+    fun index(): ResponseEntity<String> {
+        return ResponseEntity("index", HttpStatus.OK);
+    }
+
     @GetMapping("/hello")
     fun hello(): ResponseEntity<String> {
         return ResponseEntity("world", HttpStatus.OK);

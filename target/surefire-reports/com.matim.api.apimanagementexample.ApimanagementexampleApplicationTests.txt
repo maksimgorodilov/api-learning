@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.matim.api.apimanagementexample.ApimanagementexampleApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.643 s - in com.matim.api.apimanagementexample.ApimanagementexampleApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.46 s - in com.matim.api.apimanagementexample.ApimanagementexampleApplicationTests
